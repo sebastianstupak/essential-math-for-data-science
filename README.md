@@ -4,7 +4,9 @@
   <img src="https://mybinder.org/badge_logo.svg" alt="Binder">
 </a>
 
-<img align="left" src="docs/media/book-cover.jpg" alt="Essential Math for Data Science book cover" width="200" style="margin-right: 20px; pointer-events: none">
+<a href="https://www.oreilly.com/library/view/essential-math-for/9781098102920/" target="_blank">
+  <img align="left" src="docs/media/book-cover.jpg" alt="Essential Math for Data Science book cover" width="200" style="margin-right: 20px;">
+</a>
 
 Accompanying math from book <a href="https://www.oreilly.com/library/view/essential-math-for/9781098102920/" target="_blank">Essential Math for Data Science by Thomas Nield</a>.
 
