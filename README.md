@@ -1,10 +1,10 @@
 # Essential Math for Data Science
 
-<a href="https://mybinder.org/v2/gh/sebastianstupak/essential-math-for-data-science/HEAD?labpath=notebook" target="_blank">
+<a href="https://mybinder.org/v2/gh/sebastianstupak/essential-math-for-data-science/HEAD?labpath=notebook" target="_blank" style="margin-bottom: 20px;">
   <img src="https://mybinder.org/badge_logo.svg" alt="Binder">
 </a>
 
-<img align="left" src="docs/media/book-cover.jpg" alt="Essential Math for Data Science book cover" width="200" style="margin-right: 20px;">
+<img align="left" src="docs/media/book-cover.jpg" alt="Essential Math for Data Science book cover" width="200" style="margin-right: 20px; pointer-events: none">
 
 Accompanying math from book <a href="https://www.oreilly.com/library/view/essential-math-for/9781098102920/" target="_blank">Essential Math for Data Science by Thomas Nield</a>.
 
