@@ -9,36 +9,93 @@
 </a>
 
 Accompanying math from book <a href="https://www.oreilly.com/library/view/essential-math-for/9781098102920/" target="_blank">Essential Math for Data Science by Thomas Nield</a>.
-
 This repository is not affiliated with Thomas Nield, the book "Essential Math for Data Science", or O'Reilly.
 Repository was made for personal learning purposes.
 
 <br clear="left">
 
+## Table of Contents
+
+- [Setup](#setup)
+  - [For Unix-based systems (macOS and Linux)](#for-unix-based-systems-macos-and-linux)
+  - [For Windows](#for-windows)
+
 ## Setup
 
-Setup [python virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
+### For Unix-based systems (macOS and Linux)
 
-Create a virtual environment:
+1. Open a terminal and navigate to your project directory.
 
-```bash
-python3 -m venv .venv
-```
+2. Create a virtual environment:
 
-Activate a virtual environment:
+   ```bash
+   python3 -m venv .venv
+   ```
 
-```bash
-source .venv/bin/activate
-```
+3. Activate the virtual environment:
 
-Confirm virtual environment is activated:
+   ```bash
+   source .venv/bin/activate
+   ```
 
-```bash
-which python
-```
+4. Confirm virtual environment is activated:
 
-Install project dependencies from a requirement file:
+   ```bash
+   which python
+   ```
 
-```bash
-python3 -m pip install -r requirements.txt
-```
+5. Install project dependencies from a requirement file:
+
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
+
+6. Create a Jupyter kernel for this environment:
+
+   ```bash
+   python -m ipykernel install --user --name=essential-math-for-data-science
+   ```
+
+7. Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+### For Windows
+
+1. Open Command Prompt or PowerShell and navigate to your project directory.
+
+2. Create a virtual environment:
+
+   ```
+   python -m venv .venv
+   ```
+
+3. Activate the virtual environment:
+
+   ```
+   .venv\Scripts\activate
+   ```
+
+4. Confirm virtual environment is activated:
+
+   ```
+   where python
+   ```
+
+5. Install project dependencies from a requirement file:
+
+   ```
+   python -m pip install -r requirements.txt
+   ```
+
+6. Create a Jupyter kernel for this environment:
+
+   ```
+   python -m ipykernel install --user --name=essential-math-for-data-science
+   ```
+
+7. Start Jupyter Notebook:
+   ```
+   jupyter notebook
+   ```
